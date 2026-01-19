@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Run') {
             steps {
-                sh 'docker run -d -p 8081:80 index.html'
+                sh 'docker run -d -p 8082:80 index.html'
             }
         }
     }
