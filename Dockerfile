@@ -3,7 +3,7 @@ FROM nginx:alpine
 
 # Copy file HTML ke direktori Nginx
 COPY index.html /usr/share/nginx/html/index.html
-COPY CSS /usrshare/nginx/html/CSS
+COPY css /usrshare/nginx/html/css
 COPY img /usr/share/nginx/html/img
 
 # Expose port 80
