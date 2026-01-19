@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'http://192.168.3.149:3000/sandra/myapp.git'
+                git 'https://github.com/sandrawjy/web-test.git'
             }
         }
         stage('Build Docker Image') {
